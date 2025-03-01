@@ -1,5 +1,8 @@
-hjdcdnbbbjnb 
-janf,jbN
+on: push
 
-
-hB,jfdsmj
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - run: node --version
+      - run: npm --version
